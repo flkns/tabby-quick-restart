@@ -1,6 +1,6 @@
 {
   "name": "tabby-quick-restart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin that allows you to quickly restart Tabby with a hotkey",
   "keywords": [
     "tabby-plugin"
@@ -15,11 +15,17 @@
   "files": [
     "dist"
   ],
-  "author": "Benjamin Folkens",
+  "author": {
+    "name": "Benjamin Folkens",
+    "email": "benjaminfolkens@gmail.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/flkns/tabby-quick-restart.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/flkns"
   },
   "bugs": {
     "url": "https://github.com/flkns/tabby-quick-restart/issues"
