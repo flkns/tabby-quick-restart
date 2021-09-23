@@ -1,6 +1,6 @@
 {
   "name": "tabby-quick-restart",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Plugin that allows you to quickly restart Tabby with a hotkey",
   "keywords": [
     "tabby-plugin",
