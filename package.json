@@ -25,9 +25,6 @@
     "type": "git",
     "url": "git://github.com/flkns/tabby-quick-restart.git"
   },
-  "publishConfig": {
-    "registry": "http://npm.pkg.github.com/flkns"
-  },
   "bugs": {
     "url": "https://github.com/flkns/tabby-quick-restart/issues"
   },
