@@ -1,0 +1,40 @@
+{
+  "name": "tabby-quick-restart",
+  "version": "1.0.0",
+  "description": "Plugin that allows you to quickly restart Tabby with a hotkey",
+  "keywords": [
+    "tabby-plugin"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --progress --color",
+    "watch": "webpack --progress --color --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Benjamin Folkens",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.6.7",
+    "tabby-core": "^1.0.156",
+    "tabby-settings": "^1.0.156",
+    "tabby-terminal": "^1.0.156"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.16.2",
+    "apply-loader": "^2.0.0",
+    "css-loader": "^6.3.0",
+    "node-sass": "^6.0.1",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
