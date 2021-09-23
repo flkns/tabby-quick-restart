@@ -1,6 +1,6 @@
 name: Publish to NPM
 
-on: release
+on: push
 
 jobs:
   publish:
