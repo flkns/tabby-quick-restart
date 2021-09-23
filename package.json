@@ -19,15 +19,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/flkns/tabby-quick-restart.git"
+    "url": "git://github.com/flkns/tabby-quick-restart.git"
   },
   "bugs": {
     "url": "https://github.com/flkns/tabby-quick-restart/issues"
   },
   "homepage": "https://github.com/flkns/tabby-quick-restart",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {
     "rxjs": "^6.6.7",
     "tabby-core": "^1.0.156",
